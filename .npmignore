@@ -1,0 +1,8 @@
+# Dependency directories
+node_modules/
+
+.idea/
+
+.editorconfig
+yarn.lock
+rollup.config.js

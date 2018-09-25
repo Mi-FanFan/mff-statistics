@@ -1,0 +1,19 @@
+{
+  "name": "mff-statistics",
+  "version": "1.0.1",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf lib",
+    "build": "rollup --config rollup.config.js",
+    "prepare":"npm run clean && npm run build"
+  },
+  "dependencies": {
+    "axios": "^0.17.1"
+  },
+  "devDependencies": {
+    "rimraf": "^2.6.2",
+    "rollup": "^0.53.3",
+    "rollup-plugin-commonjs":"^8.2.6"
+  }
+}
